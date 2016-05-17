@@ -1,0 +1,10 @@
+<h2>Shoe Orders</h2>
+
+<% @shoe.each do|shoe| %>
+  <b>Name:</b>
+<p><%= shoe.customer_name%></p>
+
+<b>Order:</b>
+<p><%= shoe.quantity%> x <%= shoe.shoe_type%> size <%= shoe.size%></p>
+<hr>
+<% end %>
