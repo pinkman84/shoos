@@ -9,6 +9,17 @@ body{
  background-size: 100%;
 }
 
+a {
+  background-color: slategray;
+  padding: 5px;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
 h1 {
 
   color: #fff;

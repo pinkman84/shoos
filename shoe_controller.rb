@@ -3,6 +3,10 @@ require('sinatra/contrib/all') if development?
 require('pry-byebug')
 require_relative('./models/shoe')
 
+get '/home' do
+  erb( :home )
+end
+
 get '/shoes/new' do
   erb( :new )
 end
